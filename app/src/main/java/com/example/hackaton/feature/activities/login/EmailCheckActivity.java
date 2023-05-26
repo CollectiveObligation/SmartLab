@@ -51,7 +51,7 @@ public class EmailCheckActivity extends AppCompatActivity {
         et4 = findViewById(R.id.et4);
         button = findViewById(R.id.checkbtn);
 
-        textView.setText(email);
+
         resend = findViewById(R.id.button);
         et1.addTextChangedListener(new TextWatcher() {
             @Override
@@ -145,6 +145,7 @@ public class EmailCheckActivity extends AppCompatActivity {
 
                 Intent i = new Intent(EmailCheckActivity.this, MainPageActivity.class);
                 startActivity(i);
+
             }
         });
 
@@ -152,8 +153,7 @@ public class EmailCheckActivity extends AppCompatActivity {
 
 
 
-
-        class TimeCounter implements Runnable {
+        /*class TimeCounter implements Runnable {
             public void run() {
                 for (int i = 0; i < 60; i++) {
                     LocalTime currentTime = LocalTime.now();
@@ -176,7 +176,7 @@ public class EmailCheckActivity extends AppCompatActivity {
                 i.putExtra("emailStr", email);
                 startActivity(i);
             }
-        });
+        }); */
     }
 
 

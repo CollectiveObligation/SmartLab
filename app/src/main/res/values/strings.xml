@@ -9,40 +9,149 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="lorem_ipsum">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
-        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
-        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
-        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string>
+    <!-- order N1 -->
+    <string name="name1"> Общий анализ крови</string>
+    <string name="descr1">  Общий анализ крови позволяет оценить состояние организма, выявить наличие воспалительных процессов, определить уровень гемоглобина и другие показатели крови.</string>
+    <string name="price1"> 1000 рублей</string>
+    <string name="categ1">Популярные</string>
+    <string name="t_res1">1 день</string>
+    <string name="preps1">Натощак не менее 8 часов.</string>
+    <string name="bio1">Кровь из вены</string>
+
+    <!-- order N2 -->
+    <string name="name2">Комплексный анализ мочи</string>
+    <string name="descr2"> Комплексный анализ мочи позволяет определить состояние почек и мочевыводящих путей, наличие инфекций. </string>
+    <string name="price2"> 1500 рублей</string>
+    <string name="categ2"> Комплексные</string>
+    <string name="t_res2"> 2 дня</string>
+    <string name="preps2">Соблюдать гигиенические правила.</string>
+    <string name="bio2"> Моча</string>
+
+    <!-- order N3 -->
+    <string name="name3"> Тест на COVID-19</string>
+    <string name="descr3"> Тест на коронавирус COVID-19 позволяет выявить наличие вируса в организме. </string>
+    <string name="price3">  4000 рублей</string>
+    <string name="categ3">COVID</string>
+    <string name="t_res3">1 день</string>
+    <string name="preps3"> Не есть и не пить за 2 часа до сдачи теста.</string>
+    <string name="bio3">Мазок из носа.</string>
+
+    <!-- order N4 -->
+    <string name="name4">Анализ кала на яйца гельминтов</string>
+    <string name="descr4">Анализ кала на яйца гельминтов позволяет выявить наличие паразитов в кишечнике.  </string>
+    <string name="price4"> 800 рублей</string>
+    <string name="categ4">Популярные</string>
+    <string name="t_res4">3 день</string>
+    <string name="preps4">Соблюдать гигиенические правила.</string>
+    <string name="bio4">Кал</string>
+
+    <!-- order N5 -->
+    <string name="name5">Анализ крови на гормоны щитовидной железы</string>
+    <string name="descr5"> Анализ крови на гормоны щитовидной железы позволяет выявить нарушения ее функции, такие как гипотиреоз или гипертиреоз. </string>
+    <string name="price5"> 2000 рублей</string>
+    <string name="categ5"> Комплексные</string>
+    <string name="t_res5">2 дня</string>
+    <string name="preps5">Натощак не менее 8 часов.</string>
+    <string name="bio5">Кровь из вены</string>
+
+    <!-- order N6 -->
+    <string name="name6">ЭКГ</string>
+    <string name="descr6">  ЭКГ - это метод исследования сердца, который позволяет определить наличие нарушений сердечного ритма и проводимости.</string>
+    <string name="price6">1200 рублей</string>
+    <string name="categ6">Популярные</string>
+    <string name="t_res6">1 день</string>
+    <string name="preps6">Не использовать кремы и масла на груди.</string>
+    <string name="bio6">Электрическая активность сердца.</string>
+
+    <!-- order N7 -->
+    <string name="name7"> УЗИ брюшной полости</string>
+    <string name="descr7"> УЗИ брюшной полости позволяет оценить состояние печени, желчного пузыря, поджелудочной железы, селезенки и других органов брюшной полости. </string>
+    <string name="price7"> 2500 рублей</string>
+    <string name="categ7"> Комплексные</string>
+    <string name="t_res7">1 день</string>
+    <string name="preps7">Соблюдать диету за 2 дня до исследования.</string>
+    <string name="bio7"> Ультразвуковые волны</string>
+
+    <!-- order N8 -->
+    <string name="name8">Тест на сифилис</string>
+    <string name="descr8"> Тест на сифилис позволяет выявить наличие антител к возбудителю этого заболевания. </string>
+    <string name="price8">  2000 рублей</string>
+    <string name="categ8">Популярные</string>
+    <string name="t_res8">1 день</string>
+    <string name="preps8">Не есть и не пить за 2 часа до сдачи теста.</string>
+    <string name="bio8">Кровь из вены</string>
+
+    <!-- order N9 -->
+    <string name="name9">Анализ крови на глюкозу</string>
+    <string name="descr9">  Анализ крови на глюкозу позволяет определить уровень сахара в крови и выявить наличие диабета.</string>
+    <string name="price9"> 1000 рублей</string>
+    <string name="categ9">Популярные</string>
+    <string name="t_res9">1 день</string>
+    <string name="preps9">Натощак не менее 8 часов.</string>
+    <string name="bio9">Кровь из вены</string>
+
+    <!-- order N10 -->
+    <string name="name10">Холтеровское мониторирование</string>
+    <string name="descr10">Холтеровское мониторирование позволяет записать ЭКГ на протяжении 24-48 часов и выявить нарушения сердечного ритма и проводимости. </string>
+    <string name="price10"> 3000 рублей</string>
+    <string name="categ10">Комплексные</string>
+    <string name="t_res10">2 дня</string>
+    <string name="preps10"> Не использовать кремы и масла на груди.</string>
+    <string name="bio10">Электрическая активность сердца.</string>
+
+    <!-- order N11 -->
+    <string name="name11"> Анализ крови на ВИЧ</string>
+    <string name="descr11"> Анализ крови на ВИЧ позволяет выявить наличие антител к вирусу иммунодефицита человека. </string>
+    <string name="price11"> 1500 рублей</string>
+    <string name="categ11">Популярные</string>
+    <string name="t_res11">1 день</string>
+    <string name="preps11">Натощак не менее 8 часов.</string>
+    <string name="bio11">Кровь из вены</string>
+
+    <!-- order N12 -->
+    <string name="name12"> Анализ крови на аллергены</string>
+    <string name="descr12"> Анализ крови на аллергены позволяет выявить наличие аллергических реакций на определенные вещества.</string>
+    <string name="price12"> 3000 рублей</string>
+    <string name="categ12">Комплексные</string>
+    <string name="t_res12">2 дня</string>
+    <string name="preps12"> Соблюдать диету за 2 дня до исследования.</string>
+    <string name="bio12">Кровь из вены</string>
+
+    <!-- order N13 -->
+    <string name="name13">Анализ крови на маркеры опухолей</string>
+    <string name="descr13"> Анализ крови на маркеры опухолей позволяет выявить наличие опухолевых клеток в организме. </string>
+    <string name="price13"> 3500 рублей</string>
+    <string name="categ13">Комплексные</string>
+    <string name="t_res13"> 3 дня</string>
+    <string name="preps13">Натощак не менее 8 часов.</string>
+    <string name="bio13">Кровь из вены</string>
+
+    <!-- order N14 -->
+    <string name="name14"> Тест на гепатит С</string>
+    <string name="descr14">Тест на гепатит С позволяет выявить наличие антител к вирусу гепатита С. </string>
+    <string name="price14"> 2000 рублей</string>
+    <string name="categ14">Популярные</string>
+    <string name="t_res14">1 день</string>
+    <string name="preps14">Натощак не менее 8 часов.</string>
+    <string name="bio14">Кровь из вены</string>
+
+    <!-- order N15 -->
+    <string name="name15">Анализ крови на мочевину и креатинин</string>
+    <string name="descr15"> Анализ крови на мочевину и креатинин позволяет оценить функцию почек и выявить наличие заболеваний этих органов. </string>
+    <string name="price15">1500 рублей</string>
+    <string name="categ15">Популярные</string>
+    <string name="t_res15">1 день</string>
+    <string name="preps15">Натощак не менее 8 часов.</string>
+    <string name="bio15">Кровь из вены</string>
+
+    <!-- order N17 -->
+    <string name="name16"> Профилактический медицинский осмотр</string>
+    <string name="descr16"> Обследование для выявления возможных заболеваний и профилактики развития заболеваний. </string>
+    <string name="price16"> 3000 рублей</string>
+    <string name="categ16">Комплексные</string>
+    <string name="t_res16">3 дня</string>
+    <string name="preps16">Натощак не менее 8 часов.</string>
+    <string name="bio16"> Кровь из вены, моча</string>
+
+
 </resources>

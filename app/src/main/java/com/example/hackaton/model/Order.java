@@ -10,6 +10,16 @@ public class Order {
     private String preparation;
     private String bio;
 
+    public boolean isPicked() {
+        return picked;
+    }
+
+    public void setPicked(boolean picked) {
+        this.picked = picked;
+    }
+
+    private boolean picked = false;
+
     public Order(String id,
                  String name,
                  String description,

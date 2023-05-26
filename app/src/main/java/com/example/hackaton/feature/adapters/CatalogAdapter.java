@@ -74,9 +74,18 @@ public class CatalogAdapter  extends RecyclerView.Adapter<CatalogAdapter.ViewHol
     // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
+        if(localDataSet.get(viewHolder.getAdapterPosition()).isPicked()) {
+            viewHolder.getButton().setBackgroundResource(R.drawable.delforcat);
+            viewHolder.getButton().setTextColor(Color.BLUE);
+            viewHolder.getButton().setText("Убрать");
+        } else {
+            viewHolder.getButton().setBackgroundResource(R.drawable.btn);
+            viewHolder.getButton().setTextColor(Color.WHITE);
+            viewHolder.getButton().setText("Добавить");
+        }
         Order b = localDataSet.get(position);
-        if(b.getName().length() > 30) {
-            viewHolder.getName().setText(b.getName().substring(0, 28) + "...");
+        if(b.getName().length() > 50) {
+            viewHolder.getName().setText(b.getName().substring(0, 40) + "...");
             viewHolder.getCol().setText(b.getTime_result());
             viewHolder.getSum().setText(b.getPrice() + "₽");
         } else {
@@ -87,14 +96,14 @@ public class CatalogAdapter  extends RecyclerView.Adapter<CatalogAdapter.ViewHol
         viewHolder.getButton().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(pointer == 0) {
-                    pointer = 1;
+                if(!localDataSet.get(viewHolder.getAdapterPosition()).isPicked()) {
+                    localDataSet.get(viewHolder.getAdapterPosition()).setPicked(true);
                     korza.add(b);
                     viewHolder.getButton().setBackgroundResource(R.drawable.delforcat);
                     viewHolder.getButton().setTextColor(Color.BLUE);
                     viewHolder.getButton().setText("Убрать");
                 } else {
-                    pointer = 0;
+                    localDataSet.get(viewHolder.getAdapterPosition()).setPicked(false);
                     korza.remove(b);
                     viewHolder.getButton().setBackgroundResource(R.drawable.btn);
                     viewHolder.getButton().setTextColor(Color.WHITE);

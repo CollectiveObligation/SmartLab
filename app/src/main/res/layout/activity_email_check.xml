@@ -117,6 +117,7 @@
                 android:background="@drawable/unactive_button"
                 android:enabled="false"
                 android:text="Подтвердить"
+                android:textSize="16sp"
                 android:textColor="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

@@ -2,8 +2,8 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="335dp"
-    android:layout_height="140dp"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
     app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="20dp"
     android:layout_marginTop="10dp"
@@ -25,7 +25,7 @@
             android:text="TextView"
             android:fontFamily="@font/medium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,7 +37,7 @@
             android:text="TextView"
             android:textColor="#939396"
             android:fontFamily="@font/semibold"
-            android:textSize="14sp"
+            android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/price"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -50,18 +50,18 @@
             android:text="TextView"
             android:fontFamily="@font/semibold"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="100dp"
+            android:layout_width="180dp"
             android:id="@+id/btnn"
-            android:layout_height="40dp"
+            android:layout_height="60dp"
             android:text="Добавить"
             android:textAllCaps="false"
             android:fontFamily="@font/semibold"
-            android:textSize="15sp"
+            android:textSize="22sp"
             android:textColor="@color/white"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"

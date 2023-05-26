@@ -34,14 +34,14 @@ public class EntryScreenActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-
+                Log.d("timerisworking", "timerisworking");
 
                 if(!flag) {
                     Intent i = new Intent(EntryScreenActivity.this, TipsContainerActivity.class);
                     startActivity(i);
                 }
                 else {
-                    Intent i = new Intent(EntryScreenActivity.this, MainPageActivity.class);
+                    Intent i = new Intent(EntryScreenActivity.this, LoginActivity.class);
                     startActivity(i);
                 }
             }
